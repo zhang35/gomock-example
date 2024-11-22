@@ -3,6 +3,7 @@ module github.com/zhang35/gomock-example
 go 1.23.2
 
 require (
+	github.com/golang/mock v1.6.0
 	github.com/stretchr/testify v1.9.0
 	go.uber.org/mock v0.5.0
 )

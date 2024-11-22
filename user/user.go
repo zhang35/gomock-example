@@ -9,6 +9,6 @@ type User struct {
 }
 
 // Use uses the Doer to do some work.
-func (u *User) Use() error {
-	return u.Doer.DoSomething(123, "Hello GoMock")
+func (u *User) Use(n int, s string) error {
+	return u.Doer.DoSomething(n, s)
 }
